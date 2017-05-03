@@ -20,7 +20,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.aisb.karaf-commands</groupId>
+    <groupId>org.aisb.karafcommands</groupId>
     <artifactId>karaf-whoami</artifactId>
     <packaging>bundle</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -76,8 +76,8 @@
                 <configuration>
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                        <Export-Package>org.aisb.karaf-commands*;version=${project.version};-noimport:=true</Export-Package>
-                        <Karaf-Commands>org.aisb.karaf-commands*</Karaf-Commands>
+                        <Export-Package>org.aisb.karafcommands*;version=${project.version};-noimport:=true</Export-Package>
+                        <Karaf-Commands>org.aisb.karafcommands*</Karaf-Commands>
                     </instructions>
                 </configuration>
             </plugin>
