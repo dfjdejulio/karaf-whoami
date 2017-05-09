@@ -3,11 +3,34 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.aisb.karafcommands</groupId>
+    <organization>
+      <name>Carnegie Mellon University</name>
+      <url>http://www.cmu.edu/</url>
+    </organization>
+
+    <developers>
+      <developer>
+	<name>Doug DeJulio</name>
+	<email>ddj@cmu.edu</email>
+      </developer>
+    </developers>
+
+    <licenses>
+      <license>
+	<name>MIT License</name>
+	<url>http://www.opensource.org/licenses/mit-license.php</url>
+      </license>
+    </licenses>
+
+    <scm>
+      <url>https://github.com/dfjdejulio/karaf-whoami</url>
+    </scm>
+
+    <groupId>edu.cmu.andrew.dd26.karafcommands</groupId>
     <artifactId>karaf-whoami</artifactId>
     <packaging>bundle</packaging>
     <version>1.0</version>
-    <name>Apache Karaf :: JAAS "whoami" and "groups" commands</name>
+    <name>Apache Karaf :: JAAS 'whoami' command</name>
 
     <description>Provides a useful JAAS-based "whoami" command.</description>
 
@@ -66,8 +89,8 @@
                 <configuration>
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
-                        <Export-Package>org.aisb.karafcommands*;version=${project.version};-noimport:=true</Export-Package>
-                        <Karaf-Commands>org.aisb.karafcommands*</Karaf-Commands>
+                        <Export-Package>edu.cmu.andrew.dd26.karafcommands*;version=${project.version};-noimport:=true</Export-Package>
+                        <Karaf-Commands>edu.cmu.andrew.dd26.karafcommands*</Karaf-Commands>
                     </instructions>
                 </configuration>
             </plugin>
