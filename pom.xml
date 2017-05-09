@@ -12,6 +12,8 @@
       <developer>
 	<name>Doug DeJulio</name>
 	<email>ddj@cmu.edu</email>
+	<organization>Carnegie Mellon University</organization>
+	<timezone>America/New_York</timezone>
       </developer>
     </developers>
 
@@ -24,6 +26,7 @@
 
     <scm>
       <url>https://github.com/dfjdejulio/karaf-whoami</url>
+      <connection>scm:git:https://github.com/dfjdejulio/karaf-whoami.git</connection>
     </scm>
 
     <groupId>edu.cmu.andrew.dd26.karafcommands</groupId>
@@ -31,8 +34,8 @@
     <packaging>bundle</packaging>
     <version>1.0</version>
     <name>Apache Karaf :: JAAS 'whoami' command</name>
-
     <description>Provides a useful JAAS-based "whoami" command.</description>
+    <inceptionYear>2017</inceptionYear>
 
     <dependencies>
         <dependency>
