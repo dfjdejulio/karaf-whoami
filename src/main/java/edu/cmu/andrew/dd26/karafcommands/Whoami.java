@@ -1,4 +1,4 @@
-package org.aisb.karafcommands;
+package edu.cmu.andrew.dd26.karafcommands;
 
 import org.apache.karaf.shell.api.action.Action;
 import org.apache.karaf.shell.api.action.Argument;
