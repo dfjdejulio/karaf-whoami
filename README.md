@@ -13,6 +13,5 @@ the ones Karaf doesn't have a direct understanding of, like Kerberos
 principals -- and adds a column to the table so you can see the class
 of each principal.
 
-Note: I'm currently working on submitting a pull request upstream so
-this functionality is built into Karaf in the future.  If it's
-accepted, this project will become pointless.
+I've already submitted this feature upstream, so this is only of use
+with older versions of Karaf from before the submission was accepted.
